@@ -1,0 +1,14 @@
+{
+  "name": "moneturn-exam",
+  "version": "1.0.0",
+  "author": "Sigmund Burgos <sigmund.burgos@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix api\" \"npm run dev --prefix frontend\"",
+    "dev:api": "npm run dev --prefix api",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
