@@ -8,12 +8,14 @@
 ## Installation
 
 - Clone the repository
+- Run `npm install` in both `api` and `frontend` directories
 - Run `docker-compose up`
 - Visit `http://localhost:3000`
 
 
 ## Development
 
+- Run `npm install` in both `api` and `frontend` directories
 - Run `npm run dev`
 - Backend is at `http://localhost:3000`
 - Frontend is at `http://localhost:3001`
